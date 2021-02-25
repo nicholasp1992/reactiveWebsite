@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -12,6 +21,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-color: black;
 }
 
 .container {
